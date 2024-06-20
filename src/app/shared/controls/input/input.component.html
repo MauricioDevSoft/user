@@ -1,1 +1,10 @@
-<p>input works!</p>
+<mat-form-field class="example-full-width">
+  <input
+    matInput
+    [value]="value"
+    [placeholder]="placeHolder || ''"
+    [attr.disabled]="isDisabled ? true : null"
+    (keyup)="onKeyUp($event)"
+    (blur)="onBlur()"
+  />
+</mat-form-field>

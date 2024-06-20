@@ -1,1 +1,11 @@
-<app-buttons></app-buttons>
+<h2>Probando cosas</h2>
+<app-buttons (click)="onPatchValue()">Texto agregado</app-buttons>
+
+<form
+  [formGroup]="formGroup"
+  novalidate
+  autocomplete="off"
+  (ngSubmit)="onSubmit()"
+>
+<app-input formControlName = "input"></app-input>
+</form>
