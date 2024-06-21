@@ -1,0 +1,12 @@
+.test {
+  border: 6px solid #ff6550;
+  /* width: 100vh; */
+}
+
+.container-fluid {
+  border: 6px solid lightblue;
+}
+
+.full-height {
+  height: 100vh;
+}

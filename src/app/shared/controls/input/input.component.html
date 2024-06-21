@@ -1,5 +1,7 @@
-<mat-form-field class="example-full-width">
+<mat-form-field appearance="outline">
+  <mat-label>Outline form field</mat-label>
   <input
+    matInput
     matInput
     [value]="value"
     [placeholder]="placeHolder || ''"
@@ -8,3 +10,4 @@
     (blur)="onBlur()"
   />
 </mat-form-field>
+
